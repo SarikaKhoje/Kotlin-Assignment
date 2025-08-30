@@ -1,16 +1,10 @@
 fun printStrLength(str:String)
 {
-    if(str!=null)
-    {
-      println(str.length)
-    }
-    else
-    {
-        println("string is null")
-    }
+    println(str.length)
+
 }
 fun main()
 {
-
-    printStrLength(str="sarika")
+    val a=readln()
+    printStrLength(str=a)
 }

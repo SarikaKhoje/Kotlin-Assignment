@@ -1,4 +1,4 @@
-fun printStrLength(str:String)
+fun printStr(str:String)
 {
     if(str!=null)
     {
@@ -13,5 +13,5 @@ fun printStrLength(str:String)
 }
 fun main()
 {
-    printStrLength(str="sarika")
+    printStr(str="sarika")
 }
